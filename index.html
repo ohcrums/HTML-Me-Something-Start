@@ -4,44 +4,8 @@
       <meta content="text/html"; charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Visit Rapture</title>
-      <style>
-         body {
-            background-image: url('./images/vista-background.webp');
-            background-size: contain;
-            background-position: center;
-            background-repeat: repeat;
-            color: aqua;
-         }
-         .centre {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-         }
-         .narrow {
-            max-width: 250px;
-            padding: 5;
-            font-weight: bold;
-         }
-         .triple img {
-            margin: 0 10px;
-            max-width: 100%;
-            height: 400px;
-            object-fit: cover;
-            border-radius: 8px;
-         }
-         .triplebig img {
-            margin: 0 10px;
-            max-width: 100%;
-            height: 900px;
-            object-fit: cover;
-            border-radius: 8px;
-         }
-         .banner img {
-            max-width: fit-content;
-            height: auto;
-         }
-      </style>
+		<link rel="stylesheet" href="./styles.css">
+
    </head>
    <body>
       
@@ -88,7 +52,6 @@
                      <p class="narrow">Choosing your first super power can be tough, but as ADAM Plasmids become more ubiquitous, don't miss out on the wonders of these domestic aids!</p>
                   </div>
                </div>
-               <p></p>
          </section>
       </article>
       <article>
@@ -114,29 +77,47 @@
          <section>
             <a name="plan"></a>
             <h2>Plan Your Trip</h2>
-            <p></p>
-            <figure>
-               <img>
-            </figure>
+            <div class="centre">
+               <div class="triple">
+                  <figure>
+                     <img src="./images/poster-bath.webp" alt="">
+                  </figure>
+               </div>
+               <div class="triple">
+                  <figure>
+                     <img src="./images/welcome.jpg" alt="Welcome Home.">
+                     <p class="narrow">Once you start living the life in Rapture, you might not want to return for air!</p>
+                  </figure>
+               </div>
+               <div class="triple">
+                  <figure>
+                     <img src="./images/poster-rentals.webp" alt="Premium Apartment Living!">
+                     <p class="narrow">Read more about our permanent residence incentives!</p>
+                  </figure>
+               </div>
+            </div>
          </section>
       </article>
       <article>
          <section>
             <a name="about"></a>
             <h2>About Rapture</h2>
-            <p></p>
-            <figure>
-               <img>
-            </figure>
+            <p>By now you should be certain that Rapture is simply heaven on Earth - or under it! - and you may rightly wonder, "but website, who could have conceived of such a thing? Worry not dear reader! For you shall be informed!</p>
             <section>
-               <a name="heroes"></a>
-               <h3>Andrew Ryan</h3>
-               <p>
-                  individualism, self-interest, read more about the great chain here
-               </p>
-               <figure>
-                  <img>
-               </figure>
+               <div class="centre">
+                  <a name="heroes"></a>
+                  <h3>Andrew Ryan &lt;3</h3>
+                  <figure class="triple">
+                     <img src="./images/hero-ryan.webp" alt="OMG IT'S HIM EEK">
+                     <p class="narrow">
+                        individualism, self-interest, read more about the great chain [here]...
+                     </p>
+                  </figure> 
+                  <figure class="triple">
+                     <img src="./images/hero-group.webp" alt="A trusty cohort!">
+                     <p class="narrow">Yet even Great Men do not stand alone!</p>
+                  </figure>
+               </div>
             </section>
          </section>
       </article>
