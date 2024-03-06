@@ -17,9 +17,9 @@ body {
     text-align: center;
     color: red;
  }
- #funParagraph {
+ .funParagraph {
     font-weight: 900;
-    color: blueviolet;
+    color: green;
     font-kerning:auto;
  }
  .centre {
