@@ -1,8 +1,171 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <meta content="text/html"; charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Visit Rapture</title>
+      <style>
+         body {
+            background-image: url('./images/vista-background.webp');
+            background-size: contain;
+            background-position: center;
+            background-repeat: repeat;
+            color: aqua;
+         }
+         .centre {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+         }
+         .narrow {
+            max-width: 250px;
+            padding: 5;
+            font-weight: bold;
+         }
+         .triple img {
+            margin: 0 10px;
+            max-width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+         }
+         .triplebig img {
+            margin: 0 10px;
+            max-width: 100%;
+            height: 900px;
+            object-fit: cover;
+            border-radius: 8px;
+         }
+         .banner img {
+            max-width: fit-content;
+            height: auto;
+         }
+      </style>
    </head>
    <body>
-      <!-- Write your HTML in this file! -->
-   </body>
-</html>
+      
+   <header>
+      <h1>Visit Rapture Today!</h1>
+      <div class="centre">
+         <img src="./images/banner-welcome.webp" class="banner">
+      </div>
+      <nav>
+         <ul>
+            <li><a href="#spotlight">SPOTLIGHT</a></li>
+            <li><a href="#destinations">DESTINATIONS</a>
+               <ul>
+                  <li><a href="#carnival">CARNIVAL</a></li>
+               </ul>
+            </li>
+            <li><a href="#plan">PLAN YOUR TRIP</a></li>
+            <li><a href="#about">ABOUT RAPTURE</a></li>
+               <ul>
+                  <li><a href="#heroes">THE HEROES OF RAPTURE</a></li>
+               </ul>
+            <li><a href="#events">EVENTS</a></li>
+            <li><a href="#jobs">JOBS</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <main>
+      <article>
+         <section>
+            <a name="spotlight"></a>
+            <h2>In the Spotlight</h2>
+               <div class="centre">
+                  <div class="triple">
+                     <img src="./images/poster-arcadia.webp" alt="Arcadia: Rapture's Vacationland">
+                     <p class="narrow">Arcadia is the living, breathing heart of Rapture. Its lush forests and abundant plant life served to generate life-sustaining oxygen the city needs.</p>
+                  </div>
+                  <div class="triple">
+                     <img src="./images/poster-depths.jpg" alt="Explore the Depths!">
+                     <p class="narrow">Swim with the Whales, majestic giants of the ocean depths.</p>
+                  </div>
+                  <div class="triple">
+                     <img src="./images/poster-plasmids.jpg" alt="Evolve Today!">
+                     <p class="narrow">Choosing your first super power can be tough, but as ADAM Plasmids become more ubiquitous, don't miss out on the wonders of these domestic aids!</p>
+                  </div>
+               </div>
+               <p></p>
+         </section>
+      </article>
+      <article>
+         <section>
+            <a name="destinations"></a>
+            <h2>Destinations in Rapture</h2>
+            <div class="centre">
+               <div class="narrow">
+                  <p>Explore the diverse experiences Rapture has to offer! Nature activities, technological experiences, shopping and entertainment activities, submarinal tours and cruises around Rapture.
+                  </p>
+               </div>
+               <figure class="triplebig">
+                  <img src="./images/poster-map.jpg" alt="Rapture Map">
+                  <p>Consult your local tourism office for a leaflet, TODAY!</p>
+               </figure>
+               <figure class="triplebig">
+                  <img src="./images/vista.webp" alt="A Beautiful Rapture Vista">
+               </figure>
+            </div>
+         </section>
+      </article>
+      <article>
+         <section>
+            <a name="plan"></a>
+            <h2>Plan Your Trip</h2>
+            <p></p>
+            <figure>
+               <img>
+            </figure>
+         </section>
+      </article>
+      <article>
+         <section>
+            <a name="about"></a>
+            <h2>About Rapture</h2>
+            <p></p>
+            <figure>
+               <img>
+            </figure>
+            <section>
+               <a name="heroes"></a>
+               <h3>Andrew Ryan</h3>
+               <p>
+                  individualism, self-interest, read more about the great chain here
+               </p>
+               <figure>
+                  <img>
+               </figure>
+            </section>
+         </section>
+      </article>
+      <article>
+         <section>
+            <a name="events"></a>
+            <h2>Events</h2>
+            <p></p>
+            <figure>
+               <img>
+            </figure>
+         </section>
+      </article>
+      <article>
+         <section>
+            <a name="jobs"></a>
+            <h2>Jobs</h2>
+            <p>
+               <h3>We're hiring!</h3>
+               ryan industries
+               rapture metro
+            </p>
+            <figure>
+               <img>
+            </figure>
+         </section>
+      </article>
+    </main> 
+   <footer>
+      <p>&copy; 1957 Ryan Industries</p>
+   </footer>
+</body></html>
